@@ -143,8 +143,10 @@ main {
 .footer h2 {
     font-size: 20px;
 }
-@@media all and (max-width: 500px) {
+@@media all and (max-width: 600px) {
     body {
-        display-flex: inline-block;
+        display: flex;
+        flex-shrink: 1;
+        justify-content: space-between;
     }
 }
