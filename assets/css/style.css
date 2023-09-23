@@ -120,7 +120,6 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff; 
-
 } 
 
 .services img {
@@ -143,10 +142,9 @@ main {
 .footer h2 {
     font-size: 20px;
 }
-@@media all and (max-width: 600px) {
-    body {
+@media webkit-full-screen and (max-width: 768px) { 
         display: flex;
         flex-shrink: 1;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
     }
-}
